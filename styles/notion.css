@@ -88,17 +88,22 @@
 
 .notion-collection-card {
   overflow: visible;
-}
-
-.notion-collection-card-cover {
-  border-radius: 16px;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
 .notion-collection-card-cover {
+  border-radius: 16px;
   border-bottom: 0 none;
   transition: filter 150ms linear;
   filter: none;
+}
+
+.notion-collection-card:hover {
+  background-color: teal;
+}
+
+.notion-collection-card:hover * {
+  color: #fff;
 }
 
 .notion-collection-card:hover .notion-collection-card-cover {
@@ -351,6 +356,8 @@
 .notion-page-icon-hero.notion-page-icon-image {
   border-radius: 50%;
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
+  background: rgba(255,255,255,0);
+  backdrop-filter: blur(10px);
 }
 .notion-page-icon-hero.notion-page-icon-image span,
 .notion-page-icon-hero.notion-page-icon-image img {
