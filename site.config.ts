@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Goncalo Andrade | Design',
-  domain: 'next.goncaloandrade.com',
+  domain: 'portfolio.goncaloandrade.com',
   author: 'Goncalo Andrade',
 
   // open graph metadata (optional)
@@ -26,9 +26,10 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
+  // defaultPageIcon: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9fc14744-02f6-4234-874a-557dc12379ff%2Fezgif.com-resize.gif?table=block&id=e7444b32-8397-45d2-b619-9b5f97ae78e9&cache=v2",
   defaultPageIcon: null,
   defaultPageCover: null,
-  defaultPageCoverPosition: 0.5,
+  defaultPageCoverPosition: 0,
 
   // whether or not to enable support for LQIP preview images (optional)
   // isPreviewImageSupportEnabled: true,

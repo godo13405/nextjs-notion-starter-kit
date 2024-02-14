@@ -221,6 +221,10 @@ article .notion-gallery-grid:last-child {
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
+.notion-asset-wrapper img {
+  object-fit: contain !important;
+}
+
 @media only screen and (max-width: 1200px) {
   .notion-page-cover-wrapper,
   .notion-page-cover-wrapper span,
