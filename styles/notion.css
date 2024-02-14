@@ -207,6 +207,8 @@ article .notion-gallery-grid:last-child {
 
 .notion-callout {
   margin: 0.75em 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
 .notion-hr {
