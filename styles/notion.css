@@ -129,6 +129,15 @@ article .notion-gallery-grid:last-child {
 
 .notion-gallery-grid .notion-property-text {
   font-size: 14px;
+  max-height: 7em;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .notion-collection-card-body .notion-page-link .notion-page-title {
