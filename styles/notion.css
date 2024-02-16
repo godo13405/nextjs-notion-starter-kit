@@ -40,6 +40,11 @@ h4 {
   gap: 1vw;
 }
 
+/* .notion-collection {
+  width: 100%;
+  min-width: none;
+} */
+
 .notion-collection-header {
   display: none;
 }
@@ -117,12 +122,12 @@ h4 {
 }
 
 .notion-gallery-grid > * {
-  width: 48%;
+  width: 100%;
 }
 
-@media screen and (min-width: --notion-max-width) {
+@media screen and (min-width: 900px) {
   .notion-gallery-grid>* {
-    width: 96%;
+    width: 48%;
   }
 }
 
