@@ -15,7 +15,7 @@ export default siteConfig({
   author: 'Goncalo Stratford Andrade',
 
   // open graph metadata (optional)
-  description: 'Goncalo Andrade\'s portfolio and personal site',
+  description: "Goncalo Andrade's portfolio and personal site",
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -45,11 +45,12 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  // pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/work':
+      '2e1f47b4f5954b07a15f2bab10225cee',
+    '/testimonials': '0dab09b9f9064f5fb259af6d1f56fafd'
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
@@ -59,12 +60,11 @@ export default siteConfig({
     {
       title: 'Work',
       pageId:
-        '2e1f47b4f5954b07a15f2bab10225cee?v=7cb7c1ef65d64933bf3c15b75a4e0bc4'
+        '2e1f47b4f5954b07a15f2bab10225cee'
     },
     {
       title: 'Testimonials',
-      pageId:
-        '0dab09b9f9064f5fb259af6d1f56fafd?v=acdc7b20cfde4ff697a97ed48e378421&pvs=4'
+      pageId: '0dab09b9f9064f5fb259af6d1f56fafd'
     }
   ]
 })
