@@ -1,7 +1,7 @@
 import { siteConfig } from './lib/site-config';
 
 
-export default siteConfig({
+const config = {
   // the site's root Notion page (required)
   rootNotionPageId: process.env.ROOTID,
 
@@ -53,6 +53,9 @@ export default siteConfig({
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   // navigationStyle: 'default'
   navigationStyle: process.env.NAVIGATIONLINKS ? 'custom' : 'default',
-  navigationLinks:
-    process.env.NAVIGATIONLINKS ? JSON.parse(process.env.NAVIGATIONLINKS) : null
-})
+  navigationLinks: process.env.NAVIGATIONLINKS
+    ? JSON.parse(process.env.NAVIGATIONLINKS)
+    : null
+};
+
+export default siteConfig(config)
