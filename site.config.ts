@@ -48,7 +48,8 @@ export default siteConfig({
   // pageUrlOverrides: null,
   pageUrlOverrides: {
     '/work': '2e1f47b4f5954b07a15f2bab10225cee',
-    '/testimonials': '0dab09b9f9064f5fb259af6d1f56fafd'
+    '/testimonials': '0dab09b9f9064f5fb259af6d1f56fafd',
+    '/resume': 'ebd2ad71c50e47a991258e378b734975'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -58,7 +59,7 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'Resume',
-      pageId: 'ebd2ad71c50e47a991258e378b734975?pvs=4'
+      pageId: 'ebd2ad71c50e47a991258e378b734975'
     },
     {
       title: 'Work',
