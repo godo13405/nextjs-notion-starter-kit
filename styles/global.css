@@ -21,6 +21,13 @@ body {
   overflow-x: hidden;
 }
 
+.notion-page {
+  width: 100%;
+  max-width: 1150px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .static-tweet blockquote {
   margin: 0;
   margin-block-start: 0;
