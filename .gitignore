@@ -29,6 +29,8 @@ yarn-error.log*
 
 # local env files
 .env
+.env.goncalo
+.env.rianne
 .env.local
 .env.build
 .env.development.local
