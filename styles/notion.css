@@ -73,7 +73,6 @@ h4 {
   }
 }
 
-
 .index-page {
   --notion-max-width: 900px;
 }
@@ -127,7 +126,7 @@ h4 {
 }
 
 @media screen and (min-width: 900px) {
-  .notion-gallery-grid>* {
+  .notion-gallery-grid > * {
     width: 48%;
   }
 }
@@ -167,7 +166,10 @@ article .notion-gallery-grid:last-child {
   width: 100%;
 }
 
-.notion-collection-card-body .notion-page-link .notion-page-title .notion-page-title-text {
+.notion-collection-card-body
+  .notion-page-link
+  .notion-page-title
+  .notion-page-title-text {
   width: 100%;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -198,11 +200,11 @@ article .notion-gallery-grid:last-child {
 }
 
 .notion-collection-card:hover {
-  background-color: rgba(127,127,127,.075);
+  background-color: rgba(127, 127, 127, 0.075);
 }
 
 .dark-mode .notion-collection-card:hover {
-  background-color: rgba(127,127,127,.2);
+  background-color: rgba(127, 127, 127, 0.2);
 }
 
 .notion-collection-card:hover .notion-collection-card-cover {
@@ -465,7 +467,7 @@ article .notion-gallery-grid:last-child {
 .notion-page-icon-hero.notion-page-icon-image {
   border-radius: 50%;
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
-  background: rgba(255,255,255,0);
+  background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(10px);
 }
 .notion-page-icon-hero.notion-page-icon-image span,
@@ -476,6 +478,25 @@ article .notion-gallery-grid:last-child {
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
+}
+
+.notion-nav-header .breadcrumbs {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notion-nav-header .breadcrumbs .breadcrumb {
+  width: 100%;
+  justify-content: start;
+}
+
+.notion-header .breadcrumb .notion-page-icon-inline {
+  min-width: 22px;
+}
+
+.notion-header .breadcrumb .notion-page-icon-inline + .title {
+  width: calc(100% - 25px);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .dark-mode .notion-header {
@@ -516,6 +537,6 @@ article .notion-gallery-grid:last-child {
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
+.notion-equation.notion-equation-block {
   align-items: center;
 }

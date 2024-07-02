@@ -118,3 +118,7 @@ body {
     }
   }
 }
+
+.notion-collection {
+  max-width: 100vw;
+}
